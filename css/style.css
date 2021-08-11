@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #888;
+}
+.sign{
+	width: 500px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+    border:1px solid #777;
+    padding: 20px;
+}
+h2{
+  font-weight: bold;
+  color: #ddd;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+input,button{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border: 1px solid lightgray;
+	color: #fff;
+	border-radius: 10px;
+}
+input[placeholder]{
+	padding-left:20px;
+}
+button{
+	font-size: 18px;
+	letter-spacing: 1px; 
+	cursor: pointer;
+}
+input:focus{
+	transition: all .5s;
+	border: 1px solid #f2f2f2;
+}
+button:hover{
+	transition: all .7s;
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+}
